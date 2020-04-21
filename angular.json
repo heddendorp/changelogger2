@@ -121,8 +121,16 @@
               "devServerTarget": "changelogger:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "changelogger"
+    }
+  },
+  "defaultProject": "changelogger",
+  "cli": {
+    "analytics": "241568a3-7692-40e9-87a5-d69191916bee"
+  }
 }

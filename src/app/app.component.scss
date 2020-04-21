@@ -1,0 +1,31 @@
+.container{
+  min-height: 100%;
+  background: #424242;
+}
+
+header{
+  padding: 60px 60px 0;
+
+  h1{
+    margin: 0;
+  }
+}
+
+.card{
+  border-radius: 48px;
+  background: #424242;
+  box-shadow:  20px 20px 60px #383838,
+  -20px -20px 60px #4c4c4c;
+  padding: 48px;
+  margin: 60px;
+  mat-form-field{
+    width: 100%;
+  }
+}
+footer{
+  background: #303030;
+  padding: 2rem;
+  p{
+    margin: 0;
+  }
+}

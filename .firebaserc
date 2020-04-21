@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mc-changelogger": {
+      "hosting": {
+        "changelogger": [
+          "mc-changelogger"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mc-changelogger"
+  }
+}
